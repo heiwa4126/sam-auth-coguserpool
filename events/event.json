@@ -57,6 +57,25 @@
     "resourcePath": "/{proxy+}",
     "httpMethod": "POST",
     "apiId": "1234567890",
-    "protocol": "HTTP/1.1"
+    "protocol": "HTTP/1.1",
+    "authorizer": {
+      "claims": {
+        "sub": "637c56f6-0c72-4e32-99ff-9a5589e204c4",
+        "email_verified": "true",
+        "iss": "https://cognito-idp.ap-northeast-1.amazonaws.com/ap-northeast-1_xxxxxxxxxxx",
+        "cognito:username": "637c56f6-0c72-4e32-99ff-9a5589e204c4",
+        "given_name": "Foo",
+        "origin_jti": "588520b8-7db0-41b4-b9e7-c5f0dc104f6b",
+        "aud": "6kccp6tkl0b1lfg4cmh9u10nbc",
+        "event_id": "8b737447-0504-4be6-bca5-d367d0724f7c",
+        "token_use": "id",
+        "auth_time": "1641278351",
+        "exp": "Tue Jan 04 07:39:11 UTC 2022",
+        "iat": "Tue Jan 04 06:39:11 UTC 2022",
+        "family_name": "Bar",
+        "jti": "9ce1a42f-e4e1-41d9-a564-733f8e38e295",
+        "email": "foobar@example.com"
+      }
+    }
   }
 }

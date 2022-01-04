@@ -98,7 +98,7 @@ Outputs:
   HelloApi:
     Description: "API Gateway endpoint URL for Prod stage for Hello function"
     Value: !Sub "https://${ApiGw}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
-  # UserPoolName:
-  #   Value: !Ref UserPool1
+  UserPoolId:
+    Value: !Ref UserPool1
   ClientId:
     Value: !Ref UserPoolClient1
